@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment variables
+.env
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Migrations (optional: keep if needed)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Pytest & Coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Docker
+docker-compose.override.yml
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node.js dependencies (if using frontend assets)
+node_modules/
+
+# Build files
+dist/
+build/
